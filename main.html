@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = ja>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Hack U 2021</title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body>
+
+        <header>
+            <div class="header-logo">お天気れこめんだ</div>
+            <div class="header-list">
+                <ul>
+                    <li> - 気温から服装を提案 - </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class = "main-left" id = "jouhou">
+                <table>
+                    <tr id="publishingOffice">
+                        <th>発表者：</th>
+                        <td></td>
+                    </tr>
+                    <tr id="reportDatetime">
+                        <th>日時：</th>
+                        <td></td>
+                    </tr>
+                    <tr id="targetArea">
+                        <th>地域：</th>
+                        <td></td>
+                    </tr>
+                    <tr id="today">
+                        <th>天気：</th>
+                        <td></td>
+                    </tr>
+                    <tr id="temperature">
+                        <th>気温：</th>
+                        <td></td>
+                    </tr>
+                </table>
+                <form action="#" method = "post">
+                    <!-- <h1>今日の気温は？</h1>
+                    <input type="number" placeholder="0" class="yokonarabi" id = "nyuryoku">
+                    <p class="yokonarabi">℃</p><br>
+                    <h1>
+                        <select name="wether" id = "ent_weather">
+                        <option value="晴れ">晴れ</option>
+                        <option value="雨">雨</option>
+                        <option value="曇り">曇り</option>
+                        <option value="雪">雪</option>
+                        <option value="雷">雷</option>
+                        </select>
+                    </h1> -->
+                    <input type="button" value="服装を見る" onclick = "kekka()" class = "buttom">
+                </form>
+            </div>
+            <div id = "aiueo" class = "main-right">
+
+            </div>
+        </div>
+
+
+
+
+        <footer>
+            <div class="footer-list">
+                <ul>
+                  <!--<li>お問い合わせ</li>-->
+                </ul>
+            </div>
+        </footer>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

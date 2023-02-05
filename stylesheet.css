@@ -1,0 +1,152 @@
+/* 全体 */
+body {
+    font-family: "Avenir Next";
+    margin: 0;
+    width: 100%;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* ヘッダー */
+  header {
+    background-color: #2f5167;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 19px 40px;
+  }
+  
+  .header-list ul {
+    margin: 0;
+
+  }
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+  
+  /* 真ん中全体のdiv */
+  .main {
+    height: 507px;
+    padding: 50px 80px;
+    min-width: 1000px;
+  }
+
+  .main div{
+    float: left;
+  }
+
+  /*画像*/
+  .main-left{
+    height: 500px;
+    padding: 25px 25px;
+    width: 35%;
+  }
+
+  /*四角*/
+  .main-right {
+    height: 290px;
+    width: 50%;
+    border: solid;
+    margin-left:2px;
+    padding: 30px;
+
+  }
+
+  .main-right span {
+    font-size:50px;
+    padding-left: 30%;
+
+  }
+
+  /*左よせ*/
+  th { text-align: left; }
+  th { white-space: nowrap; }
+  /*th
+  .main-right th {
+    font-size: 50px;
+  }*/
+
+  .clothe_img {
+    margin-left:50%;
+    padding: 25px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  .yokonarabi {
+    display: inline-block;
+  }
+  
+  .main p{
+    font-size: 30px;
+    vertical-align:-30%;
+    white-space: nowrap;
+  }
+  /* inputとtextareaのCSSを指定してください */
+  #nyuryoku {
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #dee7ec;
+
+  }
+  
+  .buttom{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid #dee7ec;
+    background-color: #366f96;
+    color:white;
+  }
+  /* contact-submitのCSSを指定してください */
+
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  } 
+/*  
+  footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 60px;
+    padding: 30px 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: left;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+*/  
+
+
+
+
+
+
+
+
+
+
+
